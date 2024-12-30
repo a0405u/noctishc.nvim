@@ -118,7 +118,7 @@ local theme = lush(function()
     TelescopeSelection                     { Bold }, -- TelescopeSelection 
     ColorColumn                            { bg="#252525", }, -- ColorColumn    
     Whitespace                             { fg="#353535", }, -- Whitespace     
-    NormalNC                               { fg="#f2f4f8", bg="#141414", }, -- NormalNC       
+    NormalNC                               { fg="#f2f4f8", bg="#000000", }, -- NormalNC       
     NormalFloat                            { fg="#f2f4f8", bg="#171717", }, -- NormalFloat    
     FloatBorder                            { fg="#7b7c7e", }, -- FloatBorder    
     DapUIFloatBorder                       { FloatBorder }, -- DapUIFloatBorder 
@@ -130,7 +130,7 @@ local theme = lush(function()
     RedrawDebugComposed                    { bg="green", }, -- RedrawDebugComposed 
     RedrawDebugRecompose                   { bg="red", }, -- RedrawDebugRecompose 
     lCursor                                { fg="bg", bg="fg", }, -- lCursor        
-    Normal                                 { fg="#66ffbf", bg="#141414", }, -- Normal         
+    Normal                                 { fg="#66ffbf", bg="#000000", }, -- Normal         
     NvimSpacing                            { Normal }, -- NvimSpacing    
     NvimTreePopup                          { Normal }, -- NvimTreePopup  
     DiffviewSignColumn                     { Normal }, -- DiffviewSignColumn 
@@ -694,7 +694,7 @@ local theme = lush(function()
     BufferLineSeparator                    { fg="#252525", bg="#252525", }, -- BufferLineSeparator 
     BufferLineTabClose                     { fg="#161616", bg="#161616", }, -- BufferLineTabClose 
     BufferLineDuplicateVisible             { gui="underline,italic", fg="#b6b8bb", bg="#252525", }, -- BufferLineDuplicateVisible 
-    BufferLinePickVisible                  { gui="bold,italic", fg="#ee5396", bg="#141414", }, -- BufferLinePickVisible 
+    BufferLinePickVisible                  { gui="bold,italic", fg="#ee5396", bg="#000000", }, -- BufferLinePickVisible 
     BufferLineBackground                   { fg="#b6b8bb", bg="#252525", }, -- BufferLineBackground 
     BufferLineDuplicate                    { gui="underline,italic", fg="#b6b8bb", bg="#252525", }, -- BufferLineDuplicate 
     BufferLineModifiedSelected             { fg="#f2f4f8", bg="#161616", }, -- BufferLineModifiedSelected 
@@ -711,32 +711,32 @@ local theme = lush(function()
     BufferLineCloseButtonSelected          { fg="#f2f4f8", bg="#161616", }, -- BufferLineCloseButtonSelected 
     BufferLineBufferSelected               { gui="bold,italic", fg="#f2f4f8", bg="#161616", }, -- BufferLineBufferSelected 
     BufferLineTab                          { fg="#b6b8bb", bg="#252525", }, -- BufferLineTab  
-    BufferLineNumbersVisible               { fg="#6e6f70", bg="#141414", }, -- BufferLineNumbersVisible 
-    BufferLineDiagnosticVisible            { fg="#525354", bg="#141414", }, -- BufferLineDiagnosticVisible 
+    BufferLineNumbersVisible               { fg="#6e6f70", bg="#000000", }, -- BufferLineNumbersVisible 
+    BufferLineDiagnosticVisible            { fg="#525354", bg="#000000", }, -- BufferLineDiagnosticVisible 
     BufferLineDiagnosticSelected           { gui="bold,italic", fg="#b5b7ba", bg="#161616", }, -- BufferLineDiagnosticSelected 
     BufferLineSeparatorVisible             { fg="#252525", bg="#252525", }, -- BufferLineSeparatorVisible 
     BufferLineIndicatorSelected            { bg="#161616", }, -- BufferLineIndicatorSelected 
     BufferLineHintDiagnostic               { sp="#2da4a2", fg="#525354", bg="#101010", }, -- BufferLineHintDiagnostic 
-    BufferLineHintDiagnosticVisible        { fg="#525354", bg="#141414", }, -- BufferLineHintDiagnosticVisible 
+    BufferLineHintDiagnosticVisible        { fg="#525354", bg="#000000", }, -- BufferLineHintDiagnosticVisible 
     BufferLineHintDiagnosticSelected       { sp="#2da4a2", gui="bold,italic", fg="#2da4a2", bg="#161616", }, -- BufferLineHintDiagnosticSelected 
-    BufferLineInfoVisible                  { fg="#6e6f70", bg="#141414", }, -- BufferLineInfoVisible 
+    BufferLineInfoVisible                  { fg="#6e6f70", bg="#000000", }, -- BufferLineInfoVisible 
     BufferLineInfoSelected                 { sp="#78a9ff", gui="bold,italic", fg="#78a9ff", bg="#161616", }, -- BufferLineInfoSelected 
     BufferLineInfoDiagnostic               { sp="#5a7ebf", fg="#525354", bg="#101010", }, -- BufferLineInfoDiagnostic 
-    BufferLineInfoDiagnosticVisible        { fg="#525354", bg="#141414", }, -- BufferLineInfoDiagnosticVisible 
+    BufferLineInfoDiagnosticVisible        { fg="#525354", bg="#000000", }, -- BufferLineInfoDiagnosticVisible 
     BufferLineModified                     { fg="#b6b8bb", bg="#252525", }, -- BufferLineModified 
-    BufferLineWarningVisible               { fg="#6e6f70", bg="#141414", }, -- BufferLineWarningVisible 
+    BufferLineWarningVisible               { fg="#6e6f70", bg="#000000", }, -- BufferLineWarningVisible 
     BufferLineWarningSelected              { sp="#be95ff", gui="bold,italic", fg="#be95ff", bg="#161616", }, -- BufferLineWarningSelected 
     BufferLineWarningDiagnostic            { sp="#8e6fbf", fg="#525354", bg="#101010", }, -- BufferLineWarningDiagnostic 
-    BufferLineWarningDiagnosticVisible     { fg="#525354", bg="#141414", }, -- BufferLineWarningDiagnosticVisible 
+    BufferLineWarningDiagnosticVisible     { fg="#525354", bg="#000000", }, -- BufferLineWarningDiagnosticVisible 
     BufferLineWarningDiagnosticSelected    { sp="#8e6fbf", gui="bold,italic", fg="#8e6fbf", bg="#161616", }, -- BufferLineWarningDiagnosticSelected 
-    BufferLineErrorVisible                 { fg="#6e6f70", bg="#141414", }, -- BufferLineErrorVisible 
+    BufferLineErrorVisible                 { fg="#6e6f70", bg="#000000", }, -- BufferLineErrorVisible 
     BufferLineErrorSelected                { sp="#ee5396", gui="bold,italic", fg="#ee5396", bg="#161616", }, -- BufferLineErrorSelected 
     BufferLineErrorDiagnostic              { sp="#b23e70", fg="#525354", bg="#101010", }, -- BufferLineErrorDiagnostic 
-    BufferLineErrorDiagnosticVisible       { fg="#525354", bg="#141414", }, -- BufferLineErrorDiagnosticVisible 
+    BufferLineErrorDiagnosticVisible       { fg="#525354", bg="#000000", }, -- BufferLineErrorDiagnosticVisible 
     BufferLineErrorDiagnosticSelected      { sp="#b23e70", gui="bold,italic", fg="#b23e70", bg="#161616", }, -- BufferLineErrorDiagnosticSelected 
     BufferLineTabSeparator                 { fg="#0c0c0c", bg="#101010", }, -- BufferLineTabSeparator 
     BufferLineTabSeparatorSelected         { fg="#0c0c0c", bg="#161616", }, -- BufferLineTabSeparatorSelected 
-    BufferLineIndicatorVisible             { fg="#141414", bg="#141414", }, -- BufferLineIndicatorVisible 
+    BufferLineIndicatorVisible             { fg="#000000", bg="#000000", }, -- BufferLineIndicatorVisible 
     BufferLinePickSelected                 { gui="bold,italic", fg="#ee5396", bg="#161616", }, -- BufferLinePickSelected 
     BufferLinePick                         { gui="bold,italic", fg="#ee5396", bg="#101010", }, -- BufferLinePick 
     BufferLineOffsetSeparator              { fg="#0c0c0c", bg="#0c0c0c", }, -- BufferLineOffsetSeparator 
@@ -744,7 +744,7 @@ local theme = lush(function()
     BufferLineInfo                         { sp="#78a9ff", fg="#6e6f70", bg="#101010", }, -- BufferLineInfo 
     BufferLineNumbersSelected              { gui="italic", fg="#f2f4f8", bg="#161616", }, -- BufferLineNumbersSelected 
     BufferLineWarning                      { sp="#be95ff", fg="#6e6f70", bg="#101010", }, -- BufferLineWarning 
-    BufferLineHintVisible                  { fg="#6e6f70", bg="#141414", }, -- BufferLineHintVisible 
+    BufferLineHintVisible                  { fg="#6e6f70", bg="#000000", }, -- BufferLineHintVisible 
     BufferLineHint                         { sp="#3ddbd9", fg="#6e6f70", bg="#101010", }, -- BufferLineHint 
     GitSignsChange                         { fg="#08bdba", }, -- GitSignsChange 
     GitSignsChangeNr                       { GitSignsChange }, -- GitSignsChangeNr 
