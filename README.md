@@ -1,6 +1,6 @@
 # Noctis for Neovim
 
-A neovim port of the Noctis theme for VSCode with TreeSitter support.
+A neovim port of the Noctis theme for VSCode with TreeSitter support with pure black background.
 
 > Note: This colorscheme is under active development, but is mostly usable at this point. Docs and a bunch of useful features with mostly no breaking changes will be added.
 
